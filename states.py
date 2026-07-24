@@ -11,6 +11,7 @@ class AddProduct(StatesGroup):
     description = State()
     price = State()
     photo = State()
+    file = State()
 
 
 class EditProduct(StatesGroup):
@@ -22,4 +23,3 @@ class EditProduct(StatesGroup):
 class Broadcast(StatesGroup):
     text = State()
     confirm = State()
-
