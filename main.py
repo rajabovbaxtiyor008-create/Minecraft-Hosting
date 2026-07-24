@@ -7,7 +7,7 @@ from aiogram.enums import ParseMode
 
 import database as db
 from config import BOT_TOKEN
-import Admin
+import admin as Admin
 import user
 
 
@@ -34,4 +34,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
